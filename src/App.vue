@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Calculator/>
+  <Game/>
 </template>
 
 <script>
-import Calculator from './components/HelloWorld.vue'
+import Game from './components/game.vue'
 
 export default {
   name: 'App',
   components: {
-    Calculator
+    Game
   }
 }
 </script>
